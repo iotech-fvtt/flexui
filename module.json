@@ -2,7 +2,7 @@
   "name": "flexui",
   "title": "FlexUI",
   "description": "A customizable UI for FVTT. Uses icons from Rexard and iotech.",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "author": "iotech",
   "scripts": [ "scripts/flexui.js" ],
   "styles": [],
