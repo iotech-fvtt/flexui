@@ -1,0 +1,10 @@
+{
+"UI.SETTINGS.DISABLE_STYLES": "Disable Flex UI",
+"UI.SETTINGS.DISABLE_STYLES_HINT": "Client setting, any player can turn off styles for their UI. DO NOT disable unless compact UI (below) is on!",
+"UI.SETTINGS.SMALLUI": "Use smaller, compact UI",
+"UI.SETTINGS.SMALLUI_HINT": "Makes many elements smaller",
+"UI.SETTINGS.FONTSIZE": "Font Size",
+"UI.SETTINGS.FONTSIZE_HINT": "Small, Medium, or Large fonts",
+"UI.SETTINGS.THEME": "UI Theme",
+"UI.SETTINGS.THEME_HINT": "Choose a theme for your UI"
+}

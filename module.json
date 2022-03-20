@@ -1,0 +1,33 @@
+{
+    "name": "flexui",
+    "title": "FlexUI",
+    "description": "A customizable UI for FVTT. Uses icons from Rexard and iotech.",
+    "version": "0.3.0",
+    "author": "iotech",
+    "scripts": ["scripts/flexui.js"],
+    "styles": [],
+    "languages": [
+        {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+        },
+        {
+          "lang": "fr",
+          "name": "French (French)",
+          "path": "lang/fr.json"
+        },
+        {
+          "lang": "pt-BR",
+          "name": "Português (Brasil)",
+          "path": "lang/pt-BR.json"
+        }
+      ],
+    "esmodules": [],
+    "packs": [],
+    "url": "https://github.com/iotech-fvtt/flexui",
+    "manifest": "",
+    "download": "",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9"
+}

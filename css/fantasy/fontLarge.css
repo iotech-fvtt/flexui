@@ -1,0 +1,55 @@
+.sidebar-tab .directory-list .directory-item h3 {
+    font-size: 1.2em !important;
+}
+
+.sidebar-tab .directory-list .directory-item h4 {
+    font-size: 1.2em !important;
+}
+
+:root {
+    --sidebar-item-height: 48px;
+}
+
+#scenes .scene{
+    line-height: 75px; 
+    height: 75px;
+}
+
+#scenes .scene h3{
+    line-height: 75px;
+}
+
+
+.sidebar-tab .folder .folder-header {
+    color: black !important;
+    text-shadow: 1px 2px 3px white;
+    padding-left: 33px !important;
+
+}
+
+li.folder > .folder-header h3{
+    text-shadow: 1px 2px 3px white;
+    color: black !important;
+}
+
+li.folder>.folder-header .create-folder{
+    text-shadow: 1px 2px 3px white;
+    color: black !important;
+    font-size: 1.2em;
+
+}
+li.folder.collapsed > .folder-header h3{
+    text-shadow: 1px 2px 3px white;
+    color: black !important;
+
+}
+#compendium h3 {
+    text-shadow: 1px 2px 3px white !important;
+    color: black !important;
+
+}
+li.compendium-folder > .compendium-folder-header .create-entity-c{
+    text-shadow: 1px 2px 3px white !important;
+    color: black !important;
+    
+}

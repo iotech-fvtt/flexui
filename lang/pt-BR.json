@@ -1,0 +1,11 @@
+{
+    "UI.SETTINGS.DISABLE_STYLES": "Disable FlexUi",
+    "UI.SETTINGS.DISABLE_STYLES_HINT": "This is a local setting, with which any player can turn off styles",
+    "UI.SETTINGS.SMALLUI": "Use smaller, compact UI",
+    "UI.SETTINGS.SMALLUI_HINT": "Makes many elements smaller",
+    "UI.SETTINGS.FONTSIZE": "Font Size",
+    "UI.SETTINGS.FONTSIZE_HINT": "Small, Medium, or Large fonts",
+    "UI.SETTINGS.THEME": "UI Theme",
+    "UI.SETTINGS.THEME_HINT": "Choose a theme for your UI"
+
+}
