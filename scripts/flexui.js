@@ -178,13 +178,13 @@ function fantasyUIAddMainCss(theme) {
 	mainCss.setAttribute("rel", "stylesheet")
 	mainCss.setAttribute("type", "text/css")
 	if (theme == "f") {
-		console.log("Adding fantasy");
+		//console.log("Adding fantasy");
 		mainCss.setAttribute("href", "modules/flexui/css/fantasy/fantasyui.css")
 	} else if (theme == "s"){
-		console.log("Adding scifi");
+		//console.log("Adding scifi");
 		mainCss.setAttribute("href", "modules/flexui/css/scifi/scifiui.css")
 	} else if (theme == "st"){
-		console.log("Adding horror");
+		//console.log("Adding horror");
 		mainCss.setAttribute("href", "modules/flexui/css/stone/stoneui.css")
 	}
 	mainCss.setAttribute("media", "all")
