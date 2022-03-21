@@ -20,7 +20,7 @@ Hooks.on('init', () => {
 		choices: {           
 		"f": "Fantasy",
 		"s": "SciFi",
-		"h": "Stone"
+		"st": "Stone"
 		},
 		default: "f",        
 		onChange: value => { 
@@ -69,12 +69,12 @@ if ((!game.settings.get('flexui', 'disableStyles')) && (game.settings.get('flexu
     if (game.settings.get('flexui', 'fontSize') == "s") { fantasyUIAddSmallFont("s") }
     if (game.settings.get('flexui', 'fontSize') == "m") { fantasyUIAddMediumFont("s") }
     if (game.settings.get('flexui', 'fontSize') == "l") { fantasyUIAddLargeFont("s") }
-} else if ((!game.settings.get('flexui', 'disableStyles')) && (game.settings.get('flexui', 'theme') == "h")) { 
-    fantasyUIAddMainCss("h") 
-    if (!game.settings.get('flexui', 'smallUI')) { fantasyUIAddLargeCss("h") } else {fantasyUIAddSmallCss("h")}
-    if (game.settings.get('flexui', 'fontSize') == "s") { fantasyUIAddSmallFont("h") }
-    if (game.settings.get('flexui', 'fontSize') == "m") { fantasyUIAddMediumFont("h") }
-    if (game.settings.get('flexui', 'fontSize') == "l") { fantasyUIAddLargeFont("h") }
+} else if ((!game.settings.get('flexui', 'disableStyles')) && (game.settings.get('flexui', 'theme') == "st")) { 
+    fantasyUIAddMainCss("st") 
+    if (!game.settings.get('flexui', 'smallUI')) { fantasyUIAddLargeCss("st") } else {fantasyUIAddSmallCss("st")}
+    if (game.settings.get('flexui', 'fontSize') == "s") { fantasyUIAddSmallFont("st") }
+    if (game.settings.get('flexui', 'fontSize') == "m") { fantasyUIAddMediumFont("st") }
+    if (game.settings.get('flexui', 'fontSize') == "l") { fantasyUIAddLargeFont("st") }
 } else {
     preventDisaster("f");
 }
@@ -95,8 +95,8 @@ function fantasyUIAddSmallCss(theme) {
 		mainCss.setAttribute("href", "modules/flexui/css/fantasy/small.css")
 	} else if (theme == "s"){
 		mainCss.setAttribute("href", "modules/flexui/css/scifi/small.css")
-	} else if (theme == "h"){
-		mainCss.setAttribute("href", "modules/flexui/css/horror/small.css")
+	} else if (theme == "st"){
+		mainCss.setAttribute("href", "modules/flexui/css/stone/small.css")
 	}
 	mainCss.setAttribute("media", "all")
 	head.insertBefore(mainCss, head.lastChild);
@@ -111,8 +111,8 @@ function fantasyUIAddLargeCss(theme) {
 		mainCss.setAttribute("href", "modules/flexui/css/fantasy/large.css")
 	} else if (theme == "s"){
 		mainCss.setAttribute("href", "modules/flexui/css/scifi/large.css")
-	} else if (theme == "h"){
-		mainCss.setAttribute("href", "modules/flexui/css/horror/large.css")
+	} else if (theme == "st"){
+		mainCss.setAttribute("href", "modules/flexui/css/stone/large.css")
 	}
 	mainCss.setAttribute("media", "all")
 	head.insertBefore(mainCss, head.lastChild);
@@ -127,8 +127,8 @@ function fantasyUIAddLargeFont(theme) {
 		mainCss.setAttribute("href", "modules/flexui/css/fantasy/fontLarge.css")
 	} else if (theme == "s"){
 		mainCss.setAttribute("href", "modules/flexui/css/scifi/fontLarge.css")
-	} else if (theme == "h"){
-		mainCss.setAttribute("href", "modules/flexui/css/horror/fontLarge.css")
+	} else if (theme == "st"){
+		mainCss.setAttribute("href", "modules/flexui/css/stone/fontLarge.css")
 	}
 	mainCss.setAttribute("media", "all")
 	head.insertBefore(mainCss, head.lastChild);
@@ -143,8 +143,8 @@ function fantasyUIAddMediumFont(theme) {
 		mainCss.setAttribute("href", "modules/flexui/css/fantasy/fontMedium.css")
 	} else if (theme == "s"){
 		mainCss.setAttribute("href", "modules/flexui/css/scifi/fontMedium.css")
-	} else if (theme == "h"){
-		mainCss.setAttribute("href", "modules/flexui/css/horror/fontMedium.css")
+	} else if (theme == "st"){
+		mainCss.setAttribute("href", "modules/flexui/css/stone/fontMedium.css")
 	}
 	mainCss.setAttribute("media", "all")
 	head.insertBefore(mainCss, head.lastChild);
@@ -159,8 +159,8 @@ function fantasyUIAddSmallFont(theme) {
 		mainCss.setAttribute("href", "modules/flexui/css/fantasy/fontSmall.css")
 	} else if (theme == "s"){
 		mainCss.setAttribute("href", "modules/flexui/css/scifi/fontSmall.css")
-	} else if (theme == "h"){
-		mainCss.setAttribute("href", "modules/flexui/css/horror/fontSmall.css")
+	} else if (theme == "st"){
+		mainCss.setAttribute("href", "modules/flexui/css/stone/fontSmall.css")
 	}
 	mainCss.setAttribute("media", "all")
 	head.insertBefore(mainCss, head.lastChild);
@@ -183,9 +183,9 @@ function fantasyUIAddMainCss(theme) {
 	} else if (theme == "s"){
 		console.log("Adding scifi");
 		mainCss.setAttribute("href", "modules/flexui/css/scifi/scifiui.css")
-	} else if (theme == "h"){
+	} else if (theme == "st"){
 		console.log("Adding horror");
-		mainCss.setAttribute("href", "modules/flexui/css/horror/horrorui.css")
+		mainCss.setAttribute("href", "modules/flexui/css/stone/stoneui.css")
 	}
 	mainCss.setAttribute("media", "all")
 	head.insertBefore(mainCss, head.lastChild);
