@@ -6,8 +6,8 @@ Fancy.webp is from a free collection by http://dycha.net
 */
 /* These items change for small/large UI selection */
 .window-content{
-    background: url('/modules/flexui/ui/img/stone/parchment.webp') !important;
-}
+/*    background: url('/modules/flexui/ui/img/stone/parchment.webp') !important;
+*/}
 
 #settings button{
     background-image: url("/modules/flexui/ui/img/stone/button_clear.webp");

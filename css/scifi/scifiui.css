@@ -16,7 +16,7 @@ Fancy.webp is from a free collection by http://dycha.net
     color: white;
 }
 .window-content{
-    background: url('/modules/flexui/ui/img/scifi/parchment.webp') !important;
+   /* background: url('/modules/flexui/ui/img/scifi/parchment.webp') !important;*/
 }
 
 #settings button{
