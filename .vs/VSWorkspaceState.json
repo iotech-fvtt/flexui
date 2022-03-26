@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\css\\fantasy",
+    "\\css\\scifi",
+    "\\css\\stone",
+    "\\ui\\img",
+    "\\ui\\img\\stone"
   ],
-  "SelectedNode": "\\C:\\Users\\gsmith\\Source\\Repos\\flexui",
+  "SelectedNode": "\\css\\fantasy\\fantasyui.css",
   "PreviewInSolutionExplorer": false
 }
