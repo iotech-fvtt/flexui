@@ -8,7 +8,9 @@ Fancy.webp is from a free collection by http://dycha.net
 .window-content{
 /*    background: url('/modules/flexui/ui/img/stone/parchment.webp') !important;
 */}
-
+li[data-folder-id="default"] {
+    height: 64px !important;
+}
 #settings button{
     background-image: url("/modules/flexui/ui/img/stone/button_clear.webp");
     background-size: 100% 100%;
@@ -675,7 +677,7 @@ li.folder>.folder-header .create-entity {
     margin-top: 7px;
 }    
 .fa-atlas:before {
-    padding-left: 15px;
+    /*padding-left: 15px;*/
     margin-top: 7px;    
     vertical-align: middle;
 }
