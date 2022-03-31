@@ -1,4 +1,7 @@
 # flexui
+
+NOTE: I have a build ready for Foundry v10 Prototype 1. It is not available here, contact me if you wish to try it out. 
+
 Huge update to FantasyUI, now named FlexUI
 - Module settings to customize many aspects
     - Font/button size
