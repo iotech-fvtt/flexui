@@ -1,8 +1,8 @@
 {
   "name": "flexui",
   "title": "FlexUI",
-  "description": "A customizable UI for FVTT. Uses icons from Rexard and iotech.",
-  "version": "0.1.6",
+  "description": "A customizable UI for FVTT. Uses icons from Rexard and iotech. This will be the final version supporting FoundryVTT v9.",
+  "version": "0.1.8",
   "author": "iotech",
   "scripts": [ "scripts/flexui.js" ],
   "styles": [],
