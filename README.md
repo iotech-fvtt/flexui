@@ -1,15 +1,18 @@
 # flexui
 
-v10 Release
+FlexUI v0.1.8
+This is the LAST update for Foundry v9. It will NOT work with Foundry v10. 
 
+- Readability enhancements in folder fonts
 - Module settings to customize many aspects
     - Font/button size
     - Tab icons Large/small
 - Compatibility for Foundry v9+
-- Three different themes built in, choosable in module configuration
+- Four different themes built in, choosable in module configuration
     - Fantasy
     - SciFi
     - Stone
+    - Classic FantasyUI
 
 
 Advice/Inspriration/Ecouragement
