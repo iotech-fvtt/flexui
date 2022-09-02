@@ -5,7 +5,7 @@ Foundry V10 Release
 - Module settings to customize many aspects
     - Font/button size
     - Tab icons Large/small
-- Compatibility for Foundry v9+
+- Compatibility for Foundry v10+
 - Four different themes built in, choosable in module configuration
     - Fantasy
     - SciFi
