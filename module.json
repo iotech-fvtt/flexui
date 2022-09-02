@@ -27,7 +27,7 @@
   "packs": [],
   "url": "https://github.com/iotech-fvtt/flexui",
   "manifest": "https://raw.githubusercontent.com/iotech-fvtt/flexui/master/module.json",
-  "download": "https://github.com/iotech-fvtt/flexui/releases/download/0.1.6/flexui.zip",
+  "download": "https://github.com/iotech-fvtt/flexui/releases/download/0.1.8/flexui.zip",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9"
 }
