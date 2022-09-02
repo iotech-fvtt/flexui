@@ -204,7 +204,12 @@ i.fa-caret-down::before {
     background-position: center;
     background-size: cover;
 }
-
+#sidebar #sidebar-tabs i.fa-solid{
+    /* Sidebar Tab all icons*/
+    content: "";
+    background-position: center;
+    background-size: cover;
+}
 
 #sidebar-tabs {
     text-align: center;

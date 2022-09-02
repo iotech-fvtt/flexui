@@ -16,8 +16,8 @@ li[data-folder-id="default"] {
 #settings button{
     background-image: url("/modules/flexui/ui/img/fantasy/button_clear.webp");
     background-size: 100% 100%;
-    text-shadow: 1px 2px 3px white;
-    color: black;
+    /*text-shadow: 1px 2px 3px white;
+    color: black;*/
 }
 .directory .action-buttons button {
     height: 24px !important;
@@ -196,7 +196,12 @@ i.fa-caret-down::before {
     background-position: center;
     background-size: cover;
 }
-
+#sidebar #sidebar-tabs i.fa-solid{
+    /* Sidebar Tab all icons*/
+    content: "";
+    background-position: center;
+    background-size: cover;
+}
 
 #sidebar-tabs {
     text-align: center;
@@ -288,14 +293,22 @@ i.fa-caret-down::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-id-badge {
+#sidebar #sidebar-tabs i.fa-solid.fa-id-badge {
     background-image: url("/modules/flexui/ui/img/fantasy/icon_card.webp") !important;
     display: inline-block !important;
+
 }
 
-#sidebar #sidebar-tabs i.fa-id-badge::before {
+#sidebar #sidebar-tabs i.fa-solid.fa-id.badge::before {
     content: "";
 }
+
+
+
+
+
+
+
 
 #sidebar #sidebar-tabs i.fa-music {
     background-image: url("/modules/flexui/ui/img/fantasy/icon_audio.webp") !important;
@@ -487,7 +500,7 @@ padding-left: 10px;
 /* #region Folders as buttons */
 
 .sidebar-tab .folder .folder-header {
-    background-image: url("/modules/flexui/ui/img/fantasy/button_fancy.webp") !important;
+    background-image: url("/modules/flexui/ui/img/fantasy/button_clear.webp") !important;
     text-align: left !important;
     background-position: center !important;
     background-size: 100% 100% !important;
@@ -699,7 +712,7 @@ li.folder>.folder-header .create-entity {
     flex-shrink: 1;
     flex-grow: 1;
     flex-basis: auto;
-    text-shadow: 2px 2px black;
+    /*text-shadow: 2px 2px black;*/
 
 }
 .compendium-folder-header > .create-folder {
