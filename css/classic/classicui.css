@@ -196,6 +196,12 @@ i.fa-caret-down::before {
     background-position: center;
     background-size: cover;
 }
+#sidebar #sidebar-tabs i.fa-solid{
+    /* Sidebar Tab all icons*/
+    content: "";
+    background-position: center;
+    background-size: cover;
+}
 
 
 #sidebar-tabs {
@@ -234,12 +240,12 @@ i.fa-caret-down::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-fist-raised {
+#sidebar #sidebar-tabs i.fa-swords {
     background-image: url("/modules/flexui/ui/img/classic/icon_combat.webp") !important;
     display: inline-block !important;
 }
 
-#sidebar #sidebar-tabs i.fa-fist-raised::before {
+#sidebar #sidebar-tabs i.fa-swords::before {
     content: "";
 }
 
@@ -252,12 +258,12 @@ i.fa-caret-down::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-users {
+#sidebar #sidebar-tabs i.fa-user {
     background-image: url("/modules/flexui/ui/img/classic/icon_actor.webp") !important;
     display: inline-block !important;
 }
 
-#sidebar #sidebar-tabs i.fa-users::before {
+#sidebar #sidebar-tabs i.fa-user::before {
     content: "";
 }
 
@@ -288,12 +294,12 @@ i.fa-caret-down::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-id-badge {
+#sidebar #sidebar-tabs i.fa-cards {
     background-image: url("/modules/flexui/ui/img/classic/icon_card.webp") !important;
     display: inline-block !important;
 }
 
-#sidebar #sidebar-tabs i.fa-id-badge::before {
+#sidebar #sidebar-tabs i.fa-cards::before {
     content: "";
 }
 

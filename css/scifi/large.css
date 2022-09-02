@@ -3,6 +3,13 @@
     height: 40px;
     width: 40px;
 }
+
+#sidebar #sidebar-tabs i.fa-solid{
+    /* Sidebar Tab all icons size*/
+    height: 40px;
+    width: 40px;
+}
+
 #sidebar.collapsed {
     height: 585px !important;
 
