@@ -1,5 +1,5 @@
 # flexui
-FlexUI v0.1.8
+FlexUI v0.1.9
 This is the LAST update for Foundry v9. It will NOT work with Foundry v10. 
 
 - Readability enhancements in folder fonts
