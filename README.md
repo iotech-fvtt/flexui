@@ -1,11 +1,11 @@
 # flexui
 
-Foundry V10 Release
+Foundry V11 Release
 
 - Module settings to customize many aspects
     - Font/button size
     - Tab icons Large/small
-- Compatibility for Foundry v10+
+- Compatibility for Foundry v10 and v11+
 - Four different themes built in, choosable in module configuration
     - Fantasy
     - SciFi
