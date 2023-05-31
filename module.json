@@ -1,6 +1,6 @@
 {
   "title": "FlexUI",
-  "description": "A customizable UI for FVTT. Uses icons from Rexard and iotech. Comes with \n4 interchangeable themes",
+  "description": "A customizable UI for FVTT. Uses icons from Rexard and iotech. Comes with 4 interchangeable themes",
   "version": "0.3.0",
   "scripts": [
     "scripts/flexui.js"
@@ -38,6 +38,6 @@
   "compatibility": {
     "minimum": "10",
     "verified": "11",
-    "maximum": "11"
+    "maximum": ""
   }
 }
