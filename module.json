@@ -27,7 +27,7 @@
   ],
   "url": "https://github.com/iotech-fvtt/flexui",
   "manifest": "https://raw.githubusercontent.com/iotech-fvtt/flexui/Foundry-V10/module.json",
-  "download": "https://github.com/iotech-fvtt/flexui/releases/download/0.2.0/flexui.zip",
+  "download": "https://github.com/iotech-fvtt/flexui/releases/download/0.3.0/flexui.zip",
   "id": "flexui",
   "authors": [
     {
