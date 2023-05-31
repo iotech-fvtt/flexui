@@ -204,7 +204,12 @@ i.fa-caret-down::before {
     background-position: center;
     background-size: cover;
 }
-
+#sidebar #sidebar-tabs i.fa-solid{
+    /* Sidebar Tab all icons*/
+    content: "";
+    background-position: center;
+    background-size: cover;
+}
 
 #sidebar-tabs {
     text-align: center;
@@ -242,12 +247,12 @@ i.fa-caret-down::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-fist-raised {
+#sidebar #sidebar-tabs i.fa-swords {
     background-image: url("/modules/flexui/ui/img/scifi/icon_combat.webp") !important;
     display: inline-block !important;
 }
 
-#sidebar #sidebar-tabs i.fa-fist-raised::before {
+#sidebar #sidebar-tabs i.fa-swords::before {
     content: "";
 }
 
@@ -260,12 +265,12 @@ i.fa-caret-down::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-users {
+#sidebar #sidebar-tabs i.fa-user {
     background-image: url("/modules/flexui/ui/img/scifi/icon_actor.webp") !important;
     display: inline-block !important;
 }
 
-#sidebar #sidebar-tabs i.fa-users::before {
+#sidebar #sidebar-tabs i.fa-user::before {
     content: "";
 }
 
@@ -296,12 +301,12 @@ i.fa-caret-down::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-id-badge {
+#sidebar #sidebar-tabs i.fa-cards {
     background-image: url("/modules/flexui/ui/img/scifi/icon_card.webp") !important;
     display: inline-block !important;
 }
 
-#sidebar #sidebar-tabs i.fa-id-badge::before {
+#sidebar #sidebar-tabs i.fa-cards::before {
     content: "";
 }
 
@@ -575,6 +580,15 @@ li.folder>.folder-header .create-entity {
     padding-left: 5px;
 }
 
+li[data-folder-id="default"] {
+    height: unset !important;
+ }
+ 
+ li[data-folder-id="default"] header {
+ height: 35px !important;
+ line-height: 45px !important;
+ padding-bottom: 15px !important;
+ }
 
 /* #endregion */
 

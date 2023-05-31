@@ -22,7 +22,7 @@
     line-height: 25px;
 }
 
-
+/*
 .sidebar-tab .folder .folder-header {
     color: black !important;
     text-shadow: 1px 1px 3px white;
@@ -54,5 +54,39 @@ li.folder.collapsed > .folder-header h3{
 li.compendium-folder > .compendium-folder-header .create-entity-c{
     text-shadow: 1px 2px 3px white !important;
     color: black !important;
+    
+}
+*/
+.sidebar-tab .folder .folder-header {
+    color: white !important;
+    text-shadow: 1px 1px 3px black;
+    padding-left: 33px !important;
+
+}
+
+li.folder > .folder-header h3{
+    text-shadow: 1px 1px 3px black;
+    color: white !important;
+}
+
+li.folder>.folder-header .create-folder{
+    text-shadow: 1px 1px 3px black;
+    color: white !important;
+    font-size: .6em;
+
+}
+li.folder.collapsed > .folder-header h3{
+    text-shadow: 1px 1px 3px black;
+    color: white !important;
+
+}
+#compendium h3 {
+    text-shadow: 0px 0px 3px black !important;
+    color: white !important;
+
+}
+li.compendium-folder > .compendium-folder-header .create-entity-c{
+    text-shadow: 1px 2px 3px black !important;
+    color: white !important;
     
 }
